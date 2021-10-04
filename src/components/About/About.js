@@ -11,6 +11,10 @@ const About = () => {
           We possess high posture of customer satisfaction, one to one problem
           solving, 24/7 online help, life time membership and many more....
         </p>
+        <h5>
+          We are cordially inviting you to kick off a soothing
+          journey..................
+        </h5>
       </div>
       <div className="img-about">
         <img

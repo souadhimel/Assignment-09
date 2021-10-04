@@ -12,12 +12,12 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <Navbar bg="light">
+    <Navbar bg="success">
       <Container fluid>
         <Navbar.Collapse id="navbarScroll">
-          <h3 className="text">Online Tutorial</h3>
+          <h1 className="text">Online Tutorial</h1>
           <Nav
-            className="ms-auto my-2 my-lg-0"
+            className="ms-auto mx-10 my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
@@ -26,15 +26,6 @@ const Header = () => {
             <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
-          <Form className="d-flex">
-            <FormControl
-              type="search"
-              placeholder="Type your service"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>

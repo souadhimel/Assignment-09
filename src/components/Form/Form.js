@@ -12,7 +12,7 @@ const CustomForm = () => {
           <input
             type="text"
             id="fname"
-            name="firstname"
+            name="first name"
             placeholder="Your name.."
           />
 
@@ -20,15 +20,16 @@ const CustomForm = () => {
           <input
             type="text"
             id="lname"
-            name="lastname"
+            name="last name"
             placeholder="Your last name.."
           />
 
           <label htmlFor="country">Country</label>
           <select id="country" name="country">
-            <option value="australia">Australia</option>
+            <option value="bangladesh">Bangladesh</option>
             <option value="canada">Canada</option>
             <option value="usa">USA</option>
+            <option value="australia">Australia</option>
           </select>
 
           <label htmlFor="subject">Subject</label>
