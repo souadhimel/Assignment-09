@@ -29,7 +29,7 @@ const Header = () => {
           <Form className="d-flex">
             <FormControl
               type="search"
-              placeholder="Type your service please"
+              placeholder="Type your service"
               className="me-2"
               aria-label="Search"
             />
